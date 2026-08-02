@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 
 import javax.management.InstanceNotFoundException;
 import java.time.Instant;
+import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.Objects;
 import java.util.UUID;
@@ -25,7 +26,7 @@ public class Task {
     private String description;
 
     @Column(name = "due_date")
-    private LocalDateTime dueDate;
+    private LocalDate dueDate;
 
     // Store enums as strings rather than ordinals
     @Enumerated(EnumType.STRING)
@@ -45,7 +46,7 @@ public class Task {
     public Task() {
     }
 
-    public Task(UUID id, String title, String description, LocalDateTime dueDate, TaskStatus status, TaskPriority priority, Instant created, Instant updated) {
+    public Task(UUID id, String title, String description, LocalDate dueDate, TaskStatus status, TaskPriority priority, Instant created, Instant updated) {
         this.id = id;
         this.title = title;
         this.description = description;
@@ -80,11 +81,11 @@ public class Task {
         this.description = description;
     }
 
-    public LocalDateTime getDueDate() {
+    public LocalDate getDueDate() {
         return dueDate;
     }
 
-    public void setDueDate(LocalDateTime dueDate) {
+    public void setDueDate(LocalDate dueDate) {
         this.dueDate = dueDate;
     }
 
