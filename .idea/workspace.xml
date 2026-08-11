@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="aea94ee0-086a-442c-9692-3a5bc8167648" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/sblearn/task/domain/dto/CreateTaskRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/sblearn/task/domain/dto/TaskDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +105,7 @@
       <workItem from="1785169959900" duration="645000" />
       <workItem from="1785170635753" duration="1017000" />
       <workItem from="1785693330321" duration="3951000" />
-      <workItem from="1786476509709" duration="389000" />
+      <workItem from="1786476509709" duration="491000" />
     </task>
     <servers />
   </component>
